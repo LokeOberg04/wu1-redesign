@@ -6,11 +6,21 @@ main, body, html {
     margin: 0px;
 }
 
+main {
+    height: 88%;
+}
+
 header {
     width: 100%;
     height: 12%;
     align-items: center;
     display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    background-image: url(https://cdn.discordapp.com/attachments/750407901209821225/943800247635808296/waetermelone.jpg);
 }
 
 .flex-container {
@@ -27,10 +37,12 @@ header {
 
 .hamburg {
     width: 100%;
+    height: 100%;
     text-align: center;
 }
 
 .middle {
+    height: 100%;
     background-color: #00784D;
     width: 50%;
     text-align: center;
@@ -43,17 +55,40 @@ header {
     color: black;
     height: 100%;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 5rem;
 }
 
 .a-element {
     position: absolute;
     height: 15%;
-    width: 55%;
-    border-radius: 25%;
+    width: 65%;
 }
 
 .icon {
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 500px) {
+.a-element {
+    width: 25%;
+    height: 20%;
+}
+
+header {
+height: 15%;
+}
+
+main {
+    height: 85%;
+}
+
+.green {
+    width: 10%;
+}
+
+.middle {
+    width: 80%;
+}
+
 }
