@@ -7,7 +7,7 @@ main, body, html {
 }
 
 main {
-    height: 88%;
+    height: 84%;
 }
 
 header {
@@ -19,7 +19,11 @@ header {
     margin: 0px;
 }
 
-h2 {
+.bth1 {
+    font-size: 3rem;
+}
+
+.bth2 {
     font-size: 0rem;
 }
 
@@ -55,7 +59,7 @@ h2 {
 
 .button1 {
     background-color: #ED0028;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     height: 100%;
     width: 100%;
@@ -63,7 +67,6 @@ h2 {
 }
 
 .a-element {
-    position: absolute;
     height: 15%;
     width: 65%;
 }
@@ -73,17 +76,32 @@ h2 {
     height: 100%;
 }
 
+.flex-container {
+    display: flex;
+}
+.flex-container__item {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    max-width: 40rem;
+}
+.flex-container__item img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
 @media (min-width: 500px) {
 .a-element {
     width: 20%;
     height: 15%;
 }
 
-h1 {
+.bth1 {
     font-size: 0rem;
 }
 
-h2 {
+.bth2 {
     font-size: 3rem;
     
 }
